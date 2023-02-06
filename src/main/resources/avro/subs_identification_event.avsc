@@ -1,0 +1,15 @@
+{
+   "namespace": "ph.com.globe.edo.aim.arrow.core.dto",
+   "type": "record",
+   "name": "SubsIdentificationEvent",
+   "fields": [
+      {"name": "msisdn", "type": ["null","string"], "default": null},
+      {"name": "imsi", "type": ["null","string"], "default": null},
+      {"name": "subs_id", "type": ["null","string"], "default": null},
+      {"name": "brand", "type": ["null","string"], "default": null},
+      {"name": "f_name", "type": ["null","string"], "default": null},
+      {"name": "l_name", "type": ["null","string"], "default": null},
+      {"name": "last_city", "type": ["null","string"], "default": null},
+      {"name": "balance", "type": ["null","long"], "default": null}
+   ]
+}
